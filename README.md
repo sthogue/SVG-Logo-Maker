@@ -48,10 +48,18 @@ To install the program, run the following command:
 This application is covered under the MIT license.
 [License URL](https://opensource.org/licenses/MIT)
 
+## Screenshots of Application
 
+### NPM Start terminal
+![screenshot after running npm start and answering all the questions](/README%20Assets/NPM%20start.png)
+
+### Example Logo
+![screenshot of an example logo](/README%20Assets/Example%20logo.png)
+### Jest Test
+![screenshot after running npm Jest test](/README%20Assets/Jest%20Test.png)
 ## Contributions
 
-The EdX instructional team and tutoring sessoin to help me fix any broken code. The badge URLS and likeness were copied from GitHub user [lukas-h](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+The EdX instructional team and tutoring sessoin to help me fix any broken code. The badge URLS and likeness were copied from GitHub user [lukas-h](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba). I also have GitHub copilot installed to help speed how fast I code. 
 
 
 ## Application URL
