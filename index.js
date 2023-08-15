@@ -20,16 +20,15 @@ const questions = [
         message: 'Enter a color for the text. You can use a color keyword or hex value. You DO need to include the # in the hex value.'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'shape',
         message: 'Enter a shape for the logo. Circle, Square, or Triangle.',
-        choices: ['Circle', 'Square', 'Triangle']
+        choices: [
+            'Circle', 
+            'Square', 
+            'Triangle',
+        ]
     },
-    {
-        type: 'input',
-        name: 'fileName',
-        message: 'Enter a name for the file to be saved as.'
-    }
 ];
 
 // Function to create the logo
@@ -47,7 +46,7 @@ function init() {
             const svg = new SVG(response.shape, response.color, response.textColor, response.characters);
             const data = svg.render();
             console.log(data);
-            writeToFile(`./examples/${response.fileName}.svg`, data);
+            writeToFile(`./examples/logo.svg`, data);
         })
         .catch((err) => console.error(err));
 };
